@@ -1,6 +1,8 @@
+[TOC]
+
 # Ansible-ESB
 Ansible Project ESB
-[TOC]
+
 
 # Installation
 ## Server
