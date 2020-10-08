@@ -119,4 +119,5 @@ if not os.path.exists('db.sqlite'):
     from server.filerouting import FileRouting
     db.create_all()
     db.session.commit()
-app.run(debug=True)
+if __name__=='__main__':
+    app.run(host='0.0.0.0',port=5000,debug=True)
