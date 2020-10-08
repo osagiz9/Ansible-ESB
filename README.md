@@ -20,6 +20,12 @@ flask run
 
 ```
 
+docker:
+```
+cd backend
+docker-compose run -p 5000:5000
+```
+
 ## Agent
 run:
 ```
